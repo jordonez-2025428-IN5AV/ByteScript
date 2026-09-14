@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteScript | Soluciones Digitales</title>
+    <meta name="description" content="ByteScript desarrolla sitios web, aplicaciones, sistemas y soluciones digitales personalizadas para negocios y empresas.">
+    <meta name="theme-color" content="#050505">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="ByteScript | Desarrollo de Software y Soluciones Digitales">
+    <meta property="og:description" content="Transformamos ideas en soluciones digitales. Desarrollo web, apps, sistemas y automatización a medida.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/byteescriptt.png" type="image/x-icon">
+</head>
+
+<body class="bg-dark text-slate font-sans antialiased selection:bg-sky-500 selection:text-white">
+    <!-- NAVBAR -->
+    <header id="navbar" class="navbar-fixed">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">&lt;/&gt;</span>
+                <span class="logo-text">Byte<span class="text-accent">Script</span></span>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="nav-links">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#por-que-bytescript" class="nav-link">Nosotros</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#proceso" class="nav-link">Proceso</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+
+            <!-- CTA Button Navbar -->
+            <div class="nav-actions">
+                <a href="#contacto" class="btn btn-primary btn-sm">
+                    <span>Hablemos</span>
+                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </a>
+
+                <!-- Hamburger Mobile Toggle -->
+                <button id="mobile-menu-btn" class="hamburger-btn" aria-label="Abrir menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu Dropdown -->
+        <div id="mobile-menu" class="mobile-menu">
+            <nav class="mobile-nav-links">
+                <a href="#inicio" class="mobile-nav-link">Inicio</a>
+                <a href="#servicios" class="mobile-nav-link">Servicios</a>
+                <a href="#por-que-bytescript" class="mobile-nav-link">Nosotros</a>
+                <a href="#proyectos" class="mobile-nav-link">Proyectos</a>
+                <a href="#proceso" class="mobile-nav-link">Proceso</a>
+                <a href="#contacto" class="mobile-nav-link">Contacto</a>
+                <a href="#contacto" class="btn btn-primary w-full text-center mt-4">Hablemos</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-grid-pattern"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge fade-in">
+                    <span class="badge-dot"></span>
+                    <span>Agencia de Desarrollo &amp; Soluciones Digitales</span>
+                </div>
+                
+                <h1 class="hero-title fade-in">
+                    Transformamos ideas en <span class="gradient-text">soluciones digitales.</span>
+                </h1>
+                
+                <p class="hero-subtitle fade-in">
+                    Desarrollamos sitios web, aplicaciones, sistemas y soluciones digitales personalizadas diseñadas con precisión para llevar tu negocio al siguiente nivel.
+                </p>
+                
+                <div class="hero-buttons fade-in">
+                    <a href="#contacto" class="btn btn-primary btn-lg">
+                        <span>Solicitar proyecto</span>
+                        <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#proyectos" class="btn btn-secondary btn-lg">
+                        <span>Ver proyectos</span>
+                    </a>
+                </div>
+
+                <div class="hero-stats fade-in">
+                    <div class="stat-item">
+                        <span class="stat-number">99.9%</span>
+                        <span class="stat-label">Uptime y Eficiencia</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">+10</span>
+                        <span class="stat-label">Proyectos Entregados</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Código Personalizado</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visual Code / IDE Dashboard Mockup Element -->
+            <div class="hero-visual fade-in">
+                <div class="code-window">
+                    <div class="code-window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <div class="window-title">App.tsx — ByteScript Core System</div>
+                        <div class="window-actions">
+                            <span class="tech-badge">TypeScript</span>
+                        </div>
+                    </div>
+                    <div class="code-window-body">
+                        <pre><code><span class="code-keyword">import</span> { DigitalAgency, BusinessGrowth } <span class="code-keyword">from</span> <span class="code-string">'@bytescript/core'</span>;
+
+<span class="code-comment">// Definición de la solución tecnológica</span>
+<span class="code-keyword">const</span> <span class="code-function">initializeProject</span> = <span class="code-keyword">async</span> (clientNeeds) =&gt; {
+  <span class="code-keyword">const</span> project = <span class="code-keyword">await</span> DigitalAgency.<span class="code-function">createCustomSolution</span>({
+    architecture: <span class="code-string">'Modern &amp; Scalable'</span>,
+    performance: <span class="code-string">'Ultra Fast (100/100)'</span>,
+    security: <span class="code-string">'Enterprise Grade'</span>,
+    design: <span class="code-string">'Premium UX/UI'</span>
+  });
+
+  <span class="code-keyword">return</span> project.<span class="code-function">deploy</span>({
+    target: BusinessGrowth.<span class="code-property">MAXIMUM_ROI</span>
+  });
+};
+
+<span class="code-comment">// Ejecución del éxito digital</span>
+<span class="code-function">initializeProject</span>({ status: <span class="code-string">'READY_TO_SCALE'</span> });</code></pre>
+
+                        <!-- Floating Micro UI Cards -->
+                        <div class="floating-card card-1">
+                            <div class="floating-icon">⚡</div>
+                            <div class="floating-text">
+                                <span class="title">Performance Optimizada</span>
+                                <span class="sub">99ms Tiempo de respuesta</span>
+                            </div>
+                        </div>
+
+                        <div class="floating-card card-2">
+                            <div class="floating-icon">🛡️</div>
+                            <div class="floating-text">
+                                <span class="title">Seguridad Garantizada</span>
+                                <span class="sub">Arquitectura protegida</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="servicios" class="section bg-dark-alt border-y-custom">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Lo Que Hacemos</span>
+                <h2 class="section-title">Soluciones digitales para tu negocio</h2>
+                <p class="section-description">
+                    No importa si necesitas una página web, una aplicación o un sistema personalizado. Diseñamos y desarrollamos soluciones adaptadas a las necesidades reales de cada proyecto.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3 class="service-title">Desarrollo Web</h3>
+                    <p class="service-text">Sitios web modernos, ultrarrápidos, responsive y optimizados para convertir visitantes en clientes reales.</p>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    </div>
+                    <h3 class="service-title">E-commerce</h3>
+                    <p class="service-text">Tiendas online completas con catálogo de productos, carrito de compras intuitivo, pasarelas de pago y gestión de pedidos.</p>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                    </div>
+                    <h3 class="service-title">Aplicaciones Web</h3>
+                    <p class="service-text">Plataformas y SaaS personalizadas en la nube para automatizar procesos complejos y escalar la operativa de tu empresa.</p>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                    </div>
+                    <h3 class="service-title">Sistemas Empresariales</h3>
+                    <p class="service-text">Sistemas a medida (ERP, CRM) para administrar información, clientes, inventarios, ventas y flujos internos de trabajo.</p>
+                </div>
+
+                <!-- Servicio 5 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <h3 class="service-title">Automatización</h3>
+                    <p class="service-text">Automatización de tareas repetitivas y procesos digitales para reducir errores, recortar costos y elevar la productividad.</p>
+                </div>
+
+                <!-- Servicio 6 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                    </div>
+                    <h3 class="service-title">Integraciones y APIs</h3>
+                    <p class="service-text">Conectamos plataformas externas, herramientas de pago, CRMs y bases de datos para centralizar la información de tu negocio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- POR QUE BYTESCRIPT SECTION -->
+    <section id="por-que-bytescript" class="section bg-dark">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Nuestra Filosofía</span>
+                <h2 class="section-title">Tecnología pensada para hacer crecer tu negocio</h2>
+                <p class="section-description">
+                    Combinamos ingeniería de software de alto nivel con un enfoque estratégico para ofrecer productos digitales que marcan la diferencia.
+                </p>
+            </div>
+
+            <!-- Bento Grid Layout -->
+            <div class="bento-grid">
+                <!-- Characteristic 1 -->
+                <div class="bento-card bento-wide reveal">
+                    <div class="bento-content">
+                        <span class="bento-tag">Ingeniería A Medida</span>
+                        <h3 class="bento-title">Desarrollo totalmente personalizado</h3>
+                        <p class="bento-text">No usamos plantillas genéricas. Cada proyecto se desarrolla meticulosamente desde cero de acuerdo con las necesidades reales de tu empresa y el perfil de tus usuarios.</p>
+                    </div>
+                    <div class="bento-visual">
+                        <div class="visual-code-block">
+                            <span class="dot-green">✔ Clean Code Architecture</span>
+                            <span class="dot-blue">⚡ Scalable Microservices</span>
+                            <span class="dot-sky">🔒 End-to-End Encryption</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Characteristic 2 -->
+                <div class="bento-card reveal">
+                    <div class="bento-content">
+                        <span class="bento-tag">UX / UI Premium</span>
+                        <h3 class="bento-title">Diseño moderno e intuitivo</h3>
+                        <p class="bento-text">Interfaces elegantes, claras y pensadas para ofrecer la mejor experiencia visual adaptada a cualquier tamaño de pantalla.</p>
+                    </div>
+                </div>
+
+                <!-- Characteristic 3 -->
+                <div class="bento-card reveal">
+                    <div class="bento-content">
+                        <span class="bento-tag">Infraestructura</span>
+                        <h3 class="bento-title">Arquitectura escalable</h3>
+                        <p class="bento-text">Construimos soluciones tecnológicas con bases sólidas que pueden crecer fluidamente al mismo ritmo que se expande tu negocio.</p>
+                    </div>
+                </div>
+
+                <!-- Characteristic 4 -->
+                <div class="bento-card bento-wide reveal">
+                    <div class="bento-content">
+                        <span class="bento-tag">Resultados Medibles</span>
+                        <h3 class="bento-title">Enfoque orientados a resultados reales</h3>
+                        <p class="bento-text">La tecnología debe resolver problemas y generar rentabilidad. Cada línea de código que escribimos persigue aumentar la conversión, automatizar tareas y optimizar tus costos.</p>
+                    </div>
+                    <div class="bento-metrics">
+                        <div class="metric">
+                            <span class="val">+40%</span>
+                            <span class="lbl">Conversión Promedio</span>
+                        </div>
+                        <div class="metric">
+                            <span class="val">3x</span>
+                            <span class="lbl">Velocidad de Carga</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS SECTION (CAROUSEL) -->
+    <section id="proyectos" class="section bg-dark-alt border-y-custom">
+        <div class="container">
+            <div class="section-header-flex">
+                <div>
+                    <span class="section-subtitle">Portafolio</span>
+                    <h2 class="section-title">Proyectos realizados</h2>
+                    <p class="section-description">Una muestra de algunas soluciones digitales que hemos desarrollado.</p>
+                </div>
+                <!-- Carousel Controls -->
+                <div class="carousel-controls">
+                    <button id="prevBtn" class="carousel-btn" aria-label="Proyecto anterior">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"></path></svg>
+                    </button>
+                    <button id="nextBtn" class="carousel-btn" aria-label="Siguiente proyecto">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Carousel Slider Container -->
+            <div class="carousel-wrapper" id="carouselWrapper">
+                <div class="carousel-track" id="carouselTrack">
+                    
+                    <!-- Proyecto 1: Kadosh -->
+                    <div class="carousel-slide">
+                        <div class="project-card">
+                            <div class="project-mockup mockup-novashop">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                    <span class="mockup-url">https://kadoshguate.com</span>
+                                </div>
+                                <img src="img/kadosh.png" alt="Proyecto Kadosh" class="project-img">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">E-commerce</span>
+                                <h3 class="project-title">Kadosh</h3>
+                                <p class="project-description">Plataforma de comercio electrónico de alta conversión con procesamiento de pagos ultrarrápido y gestión de inventario sincronizada.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2: TutiMami -->
+                    <div class="carousel-slide">
+                        <div class="project-card">
+                            <div class="project-mockup mockup-lexatech">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                    <span class="mockup-url">https://tutimami-landing.vercel.app</span>
+                                </div>
+                                <img src="img/tutimami.png" alt="Proyecto LexaTech" class="project-img">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Landing Empresarial</span>
+                                <h3 class="project-title">Tutimami</h3>
+                                <p class="project-description">Landing Page corporativa de una tienda de ropa, zapatos y accesorios para la familia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3: CoffeTime -->
+                    <div class="carousel-slide">
+                        <div class="project-card">
+                            <div class="project-mockup mockup-fitcore">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                    <span class="mockup-url">https://coffe-time-theta.vercel.app</span>
+                                </div>
+                                <img src="img/CoffeTime.png" alt="Proyecto FitCore" class="project-img">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Landing Page</span>
+                                <h3 class="project-title">CoffeTime</h3>
+                                <p class="project-description">Landing page corporativa para tienda de café y comida con alta velocidad de carga.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4: Transformacion S.E.R -->
+                    <div class="carousel-slide">
+                        <div class="project-card">
+                            <div class="project-mockup mockup-urbanstore">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                    <span class="mockup-url">https://transformacionser.vercel.app</span>
+                                </div>
+                                <img src="img/transformacionser.png" alt="Proyecto UrbanStore" class="project-img">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Landing Page</span>
+                                <h3 class="project-title">Transformacion S.E.R</h3>
+                                <p class="project-description">Landing page corporativa para couching de negocios con alta velocidad de carga.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 5: Promova -->
+                    <div class="carousel-slide">
+                        <div class="project-card">
+                            <div class="project-mockup mockup-mediplus">
+                                <div class="mockup-header">
+                                    <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+                                    <span class="mockup-url"></span>
+                                </div>
+                                <img src="img/Promova.jpeg" alt="Proyecto MediPlus" class="project-img">
+                            </div>
+                            <div class="project-info">
+                                <span class="project-category">Aplicación Web</span>
+                                <h3 class="project-title">Promova</h3>
+                            <p class="project-description">Plataforma de marketing inteligente que analiza productos y genera contenido promocional personalizado para ayudar a los negocios a crear campañas digitales de forma rápida y eficiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dots Nav -->
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+    </section>
+
+    <!-- PROCESO DE TRABAJO SECTION -->
+    <section id="proceso" class="section bg-dark">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-subtitle">Metodología</span>
+                <h2 class="section-title">De la idea al producto</h2>
+                <p class="section-description">Un proceso transparente, estructurado y enfocado en entregar valor desde el primer momento.</p>
+            </div>
+
+            <div class="timeline-container">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-grid">
+                    <!-- Step 01 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">01</div>
+                        <h3 class="step-title">Descubrimos</h3>
+                        <p class="step-text">Entendemos a fondo tu negocio, analizamos requerimientos y definimos los objetivos claros y métricas del proyecto.</p>
+                    </div>
+
+                    <!-- Step 02 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">02</div>
+                        <h3 class="step-title">Diseñamos</h3>
+                        <p class="step-text">Creamos la arquitectura funcional, prototipos interactivos y la experiencia visual perfecta para tus usuarios.</p>
+                    </div>
+
+                    <!-- Step 03 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">03</div>
+                        <h3 class="step-title">Desarrollamos</h3>
+                        <p class="step-text">Convertimos el diseño en software robusto mediante código limpio, pruebas continuas y optimización de velocidad.</p>
+                    </div>
+
+                    <!-- Step 04 -->
+                    <div class="timeline-step reveal">
+                        <div class="step-badge">04</div>
+                        <h3 class="step-title">Lanzamos</h3>
+                        <p class="step-text">Realizamos pruebas finales de calidad, desplegamos en servidores optimizados y te acompañamos en la marcha.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section bg-dark-alt border-y-custom">
+        <div class="cta-bg-glow"></div>
+        <div class="container text-center relative z-10">
+            <span class="badge badge-sky mb-4">¿Listo para comenzar?</span>
+            <h2 class="cta-title">¿Tienes una idea? Hagámosla realidad.</h2>
+            <p class="cta-description">Cuéntanos qué necesitas y evaluaremos la mejor solución tecnológica para impulsar tu negocio.</p>
+            <br>
+            <a href="#contacto" class="btn btn-primary btn-lg mt-6">
+                <span>Iniciar proyecto</span>
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACTO SECTION -->
+    <section id="contacto" class="section bg-dark">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact info side -->
+                <div class="contact-info reveal">
+                    <span class="section-subtitle">Contacto</span>
+                    <h2 class="section-title">Hablemos de tu proyecto</h2>
+                    <p class="contact-lead-text">
+                        Cuéntanos qué tienes en mente. Analizaremos tu idea detalladamente y nos pondremos en contacto contigo a la brevedad.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <div>
+                                <span class="method-label">Correo Electrónico</span>
+                                <a href="mailto:jeremyojuarez@gmail.com" class="method-value">jeremyojuarez@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="method-card">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <span class="method-label">WhatsApp Directo</span>
+                                <a href="https://wa.me/42023344?text=Hola,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20un%20proyecto." target="_blank" rel="noopener noreferrer" class="method-value">+502 42023344</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-guarantee">
+                        <div class="guarantee-icon">🛡️</div>
+                        <p class="guarantee-text">Respuesta garantizada en menos de 24 horas hábiles. Propuesta clara y cotización sin compromiso.</p>
+                    </div>
+                </div>
+
+                <!-- Form Side -->
+                <div class="contact-form-wrapper reveal">
+                    <!-- 
+                        NOTA PARA INTEGRACIÓN BACKEND:
+                        El formulario actualmente procesa el envío mediante cliente local (mailto:).
+                        Para conectar un backend (Formspree, EmailJS, Node.js API), únicamente reemplace la función en js/script.js o cambie la acción del formulario.
+                    -->
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre" class="form-label">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Tu nombre o empresa" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="ejemplo@empresa.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="empresa" class="form-label">Empresa / Negocio (opcional)</label>
+                            <input type="text" id="empresa" name="empresa" class="form-input" placeholder="Nombre de tu negocio">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="tipo_proyecto" class="form-label">Tipo de proyecto *</label>
+                            <select id="tipo_proyecto" name="tipo_proyecto" class="form-select" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="Desarrollo Web">Sitio Web Profesional</option>
+                                <option value="E-commerce">Tienda Online (E-commerce)</option>
+                                <option value="Aplicación Web">Aplicación Web / SaaS</option>
+                                <option value="Sistema Empresarial">Sistema Empresarial (CRM/ERP)</option>
+                                <option value="Automatización / APIs">Automatización &amp; Integraciones</option>
+                                <option value="Proyecto Personalizado">Solución Personalizada</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje" class="form-label">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" class="form-textarea" placeholder="Cuéntanos los detalles de tu idea, requerimientos principales o metas..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-full">
+                            <span>Enviar solicitud</span>
+                            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+    <a href="https://wa.me/42023344?text=Hola,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20un%20proyecto." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="whatsapp-float" 
+       aria-label="Contactar por WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3 18.6-68.1-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+        </svg>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                
+                <!-- Col 1: Brand -->
+                <div class="footer-brand">
+                    <a href="#inicio" class="logo">
+                        <span class="logo-icon">&lt;/&gt;</span>
+                        <span class="logo-text">Byte<span class="text-accent">Script</span></span>
+                    </a>
+                    <p class="footer-description">
+                        Desarrollo de soluciones digitales personalizadas para empresas y negocios que buscan destacar, escalar y automatizar procesos.
+                    </p>
+                </div>
+
+                <!-- Col 2: Enlaces -->
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#por-que-bytescript">Nosotros</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#proceso">Proceso</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Contacto direct -->
+                <div class="footer-links-col">
+                    <h4 class="footer-heading">Contacto</h4>
+                    <ul class="footer-links font-mono text-sm">
+                        <li><a href="mailto:jeremyojuarez@gmail.com">jeremyojuarez@gmail.com</a></li>
+                        <li><a href="https://wa.me/42023344" target="_blank" rel="noopener noreferrer">WhatsApp: +502 42023344</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ByteScript. Todos los derechos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#inicio">Términos</a>
+                    <span class="dot">•</span>
+                    <a href="#inicio">Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
